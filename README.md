@@ -30,7 +30,7 @@ Raw for 2VM Deployment
 - VM 2 Host CPU 0 Usage: The Virtual Machine vCPU Utilization for VM2.
 - VM 2 Host CPU 1 Usage: The Virtual Machine vCPU Utilization for VM2.
 - VM 2 Host Mem Usage: The Virtual Machine Memory Usage for VM2.
-- VM 2 Host Mem Total: The Virtual Machine Total Memory for VM1.
+- VM 2 Host Mem Total: The Virtual Machine Total Memory for VM2.
 
 Httperf
 - NumOfRequests: Total # of Requests from HTTPerf.
