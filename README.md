@@ -14,26 +14,26 @@ General
 
 
 Raw for 1VM Deployment
-- Avg Host CPU Usage: The Virtual Machine Average CPU Utilization
-- Host CPU 0 Usage: The Virtual Machine vCPU Utilization
-- Host CPU 1 Usage: The Virtual Machine vCPU Utilization
-- Host Mem Usage:The Virtual Machine Memory Usage
-- Host Mem Total: The Virtual Machine Total Memory
+- Avg Host CPU Usage: The Virtual Machine Average CPU Utilization.
+- Host CPU 0 Usage: The Virtual Machine vCPU Utilization.
+- Host CPU 1 Usage: The Virtual Machine vCPU Utilization.
+- Host Mem Usage:The Virtual Machine Memory Usage.
+- Host Mem Total: The Virtual Machine Total Memory.
 
 Raw for 2VM Deployment
-- VM 1 Avg Host CPU Usage: The Virtual Machine Average CPU Utilization for VM1
-- VM 1 Host CPU 0 Usage: The Virtual Machine vCPU Utilization for VM1
-- VM 1 Host CPU 1 Usage: The Virtual Machine vCPU Utilization for VM1 
-- VM 1 Host Mem Usage: The Virtual Machine Memory Usage for VM1
-- VM 1 Host Mem Total: The Virtual Machine Total Memory for VM1
-- VM 2 Avg Host CPU Usage: The Virtual Machine Average CPU Utilization for VM2
-- VM 2 Host CPU 0 Usage: The Virtual Machine vCPU Utilization for VM2
-- VM 2 Host CPU 1 Usage: The Virtual Machine vCPU Utilization for VM2
-- VM 2 Host Mem Usage: The Virtual Machine Memory Usage for VM2
-- VM 2 Host Mem Total: The Virtual Machine Total Memory for VM1
+- VM 1 Avg Host CPU Usage: The Virtual Machine Average CPU Utilization for VM1.
+- VM 1 Host CPU 0 Usage: The Virtual Machine vCPU Utilization for VM1.
+- VM 1 Host CPU 1 Usage: The Virtual Machine vCPU Utilization for VM1.
+- VM 1 Host Mem Usage: The Virtual Machine Memory Usage for VM1.
+- VM 1 Host Mem Total: The Virtual Machine Total Memory for VM1.
+- VM 2 Avg Host CPU Usage: The Virtual Machine Average CPU Utilization for VM2.
+- VM 2 Host CPU 0 Usage: The Virtual Machine vCPU Utilization for VM2.
+- VM 2 Host CPU 1 Usage: The Virtual Machine vCPU Utilization for VM2.
+- VM 2 Host Mem Usage: The Virtual Machine Memory Usage for VM2.
+- VM 2 Host Mem Total: The Virtual Machine Total Memory for VM1.
 
 Httperf
-- NumOfRequests: Total # of Requests from HTTPerf
-- Period: Specifies the time interval between the creation of connections or sessions (See HTTPerf: https://linux.die.net/man/1/httperf)
-- Throughput: 
-- Response Time:
+- NumOfRequests: Total # of Requests from HTTPerf.
+- Period: Specifies the time interval between the creation of connections or sessions (See HTTPerf: https://linux.die.net/man/1/httperf).
+- Throughput: # of requests processed per second.
+- Response Time: Amount of time (ms) it takes for Acme-Air to respond to a client's request.
