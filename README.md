@@ -6,31 +6,34 @@ There are three main directories. The first directory contains the O<sub>0</sub>
 
 ### Data Structure
 
-Raw
-- Acme Web CPU Usage
-- Acme Web Memory Usage
-- Acme Web Memory Usage
-- MongoDB CPU Usage
-- MongoDB Memory Usage
-- Avg Host CPU Usage
-- Host CPU 0 Usage
-- Host CPU 1 Usage
-- Host Mem Usage
-- Host Mem Total
+General
+- Acme Web CPU Usage: CPU utilization percentage of the Acme-Air NodeJS Web Server.
+- Acme Web Memory Usage: Memory usage of the Acme-Air NodeJS Web Server.
+- MongoDB CPU Usage: CPU utilization percentage of the Acme-Air MondoDB database.
+- MongoDB Memory Usage: Memory usage of the Acme-Air MondoDB database.
 
-- VM 1 Avg Host CPU Usage
-- VM 1 Host CPU 0 Usage
-- VM 1 Host CPU 1 Usage
-- VM 1 Host Mem Usage
-- VM 1 Host Mem Total
-- VM 2 Avg Host CPU Usage
-- VM 2 Host CPU 0 Usage
-- VM 2 Host CPU 1 Usage
-- VM 2 Host Mem Usage
-- VM 2 Host Mem Total
+
+Raw for 1VM Deployment
+- Avg Host CPU Usage: The Virtual Machine Average CPU Utilization
+- Host CPU 0 Usage: The Virtual Machine vCPU Utilization
+- Host CPU 1 Usage: The Virtual Machine vCPU Utilization
+- Host Mem Usage:The Virtual Machine Memory Usage
+- Host Mem Total: The Virtual Machine Total Memory
+
+Raw for 2VM Deployment
+- VM 1 Avg Host CPU Usage: The Virtual Machine Average CPU Utilization for VM1
+- VM 1 Host CPU 0 Usage: The Virtual Machine vCPU Utilization for VM1
+- VM 1 Host CPU 1 Usage: The Virtual Machine vCPU Utilization for VM1 
+- VM 1 Host Mem Usage: The Virtual Machine Memory Usage for VM1
+- VM 1 Host Mem Total: The Virtual Machine Total Memory for VM1
+- VM 2 Avg Host CPU Usage: The Virtual Machine Average CPU Utilization for VM2
+- VM 2 Host CPU 0 Usage: The Virtual Machine vCPU Utilization for VM2
+- VM 2 Host CPU 1 Usage: The Virtual Machine vCPU Utilization for VM2
+- VM 2 Host Mem Usage: The Virtual Machine Memory Usage for VM2
+- VM 2 Host Mem Total: The Virtual Machine Total Memory for VM1
 
 Httperf
-- NumOfRequests
-- Period
-- Throughput
-- Response Time
+- NumOfRequests: Total # of Requests from HTTPerf
+- Period: Specifies the time interval between the creation of connections or sessions (See HTTPerf: https://linux.die.net/man/1/httperf)
+- Throughput: 
+- Response Time:
